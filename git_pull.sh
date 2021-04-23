@@ -36,10 +36,10 @@ panelpwd=${ConfigDir}/auth.json
 panelpwdSample=${ShellDir}/sample/auth.json
 
 if [[ ${WhichDep} == *github* ]]; then
-  ScriptsURL=https://gitee.com/highdimen/clone_scripts
+  ScriptsURL=https://github.com/demo2099/jd_jscripts
   ShellURL=https://gitee.com/highdimen/jd_shell
 else
-  ScriptsURL=https://gitee.com/highdimen/clone_scripts
+  ScriptsURL=https://github.com/demo2099/jd_jscripts
   ShellURL=https://gitee.com/highdimen/jd_shell
 fi
 
