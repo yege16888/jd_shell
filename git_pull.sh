@@ -37,10 +37,10 @@ panelpwdSample=${ShellDir}/sample/auth.json
 
 if [[ ${WhichDep} == *github* ]]; then
   ScriptsURL=https://github.com/demo2099/jd_jscripts
-  ShellURL=https://gitee.com/highdimen/jd_shell
+  ShellURL=https://github.com/yege16888/jd_shell
 else
   ScriptsURL=https://github.com/demo2099/jd_jscripts
-  ShellURL=https://gitee.com/highdimen/jd_shell
+  ShellURL=https://github.com/yege16888/jd_shell
 fi
 
 
@@ -73,10 +73,10 @@ if [[ $strAttttt =~ $strBttttt ]]
   then
   echo "3"
   else
-  perl -i -pe "s|url \= https\:\/\/github.com\/lan-tianxiang\/jd_shell|url \= https\:\/\/gitee.com\/highdimen\/jd_shell|g" ${ShellDir}/.git/config
-  perl -i -pe "s|url \= https\:\/\/gitee.com\/tianxiang-lan\/jd_shell|url \= https\:\/\/gitee.com\/highdimen\/jd_shell|g" ${ShellDir}/.git/config
-  perl -i -pe "s|url \= http\:\/\/github.com\/lan-tianxiang\/jd_shell|url \= https\:\/\/gitee.com\/highdimen\/jd_shell|g" ${ShellDir}/.git/config
-  perl -i -pe "s|url \= http\:\/\/gitee.com\/tianxiang-lan\/jd_shell|url \= https\:\/\/gitee.com\/highdimen\/jd_shell|g" ${ShellDir}/.git/config
+  perl -i -pe "s|url \= https\:\/\/github.com\/yege16888\/jd_shell|url \= https\:\/\/gitee.com\/highdimen\/jd_shell|g" ${ShellDir}/.git/config
+  perl -i -pe "s|url \= https\:\/\/gitee.com\/yege16888\/jd_shell|url \= https\:\/\/gitee.com\/highdimen\/jd_shell|g" ${ShellDir}/.git/config
+  perl -i -pe "s|url \= http\:\/\/github.com\/yege16888\/jd_shell|url \= https\:\/\/gitee.com\/highdimen\/jd_shell|g" ${ShellDir}/.git/config
+  perl -i -pe "s|url \= http\:\/\/gitee.com\/yege16888\/jd_shell|url \= https\:\/\/gitee.com\/highdimen\/jd_shell|g" ${ShellDir}/.git/config
 #  sed -i "s/url \= https\:\/\/github.com\/lan-tianxiang\/jd_shell/url \= https\:\/\/gitee.com\/highdimen\/jd_shell/g" ${ShellDir}/.git/config
 #  sed -i "s/url \= https\:\/\/gitee.com\/tianxiang-lan\/jd_shell/url \= https\:\/\/gitee.com\/highdimen\/jd_shell/g" ${ShellDir}/.git/config
 fi
