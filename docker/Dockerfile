@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 LABEL maintainer="LanTianXiang <evinedeng@foxmail.com>"
-ARG JD_BASE_URL=https://gitee.com/highdimen/jd_shell
+ARG JD_BASE_URL=https://github.com/yege16888/jd_shell
 ARG JD_BASE_BRANCH=v3
 ARG JD_SCRIPTS_URL=https://github.com/demo2099/jd_jscripts
 ARG JD_SCRIPTS_BRANCH=master
